@@ -31,3 +31,9 @@ footer{
     padding-left: 250px;
     padding-right: 250px
 }
+.banner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
