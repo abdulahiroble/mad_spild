@@ -1,44 +1,46 @@
 .header {
-    text-align: center;
+  text-align: center;
 }
 
 .collumn {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .row {
-    padding: 10px;
-    margin: 5px;
+  padding: 10px;
+  margin: 5px;
 }
 
-footer{
-    text-align: center;
-    padding: 3px;
-    background-color: darksalmon;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: darksalmon;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
-.counter{
-    text-align: center;
+.counter {
+  text-align: center;
 }
-.fakta{
-    text-align: center;
-    padding-left: 250px;
-    padding-right: 250px
+.fakta {
+  text-align: center;
+  padding-left: 250px;
+  padding-right: 250px;
 }
 
 .faktaer {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  margin: 20px;
 }
-.banner{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+
+.banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
