@@ -13,3 +13,16 @@
     padding: 10px;
     margin: 5px;
 }
+
+footer{
+    text-align: center;
+    padding: 3px;
+    background-color: darksalmon;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.counter{
+    text-align: center;
+}
