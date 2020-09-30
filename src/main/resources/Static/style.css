@@ -31,6 +31,11 @@ footer{
     padding-left: 250px;
     padding-right: 250px
 }
+
+.faktaer {
+    display: flex;
+    flex-direction: column;
+}
 .banner{
     display: block;
     margin-left: auto;
