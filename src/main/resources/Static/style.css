@@ -44,3 +44,32 @@ footer {
   margin-right: auto;
   width: 50%;
 }
+.HvadKanDuGøreImg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.HvadKanDuGøreDiv{
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 50px;
+}
+
+.bulletpoints {
+  text-align: center;
+  list-style: inside;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.listclass {
+  padding-bottom: 30px;
+}
+
+.HvadKanDuGøreBP {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
