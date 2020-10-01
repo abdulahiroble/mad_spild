@@ -11,8 +11,8 @@ public class MyController {
 
     @GetMapping("/")
     public String index() {
-        return "index";
 
+        return "index";
     }
 
     @GetMapping("/mt")
@@ -23,7 +23,6 @@ public class MyController {
     }
 
     @GetMapping("/hkdg")
-    @ResponseBody
     public String hvadKanDuGøre() {
 
         return "hvadKanDuGøre";
