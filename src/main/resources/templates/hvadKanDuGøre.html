@@ -1,27 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>HvadKanDuGøre</title>
     <link href="css/style.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
-<img class = "banner" src="../static/img/unknown.png">
+<img class = "banner" th:src="@{img/unknown.png}" src="../static/img/unknown.png">
 <div class="collumn">
     <a href="index.html" class="row">Hvad er madspild?</a>
     <a href="madspildITal.html" class="row">Hvad kan du gøre?</a>
     <a href="kontakt.html" class="row">Kontakt os</a>
 </div>
 
-<img class = HvadKanDuGøreImg src="../static/img/I-butikken.jpg">
+<img class = HvadKanDuGøreImg th:src="@{img/I-butikken.jpg}" src="../static/img/I-butikken.jpg">
 <div class = HvadKanDuGøreDiv>
     I supermarkedet: Indkøb kun den mængde mad, du har brug for.
 </div>
-<img class = HvadKanDuGøreImg src="../static/img/Madlavningen.jpg">
+<img class = HvadKanDuGøreImg th:src="@{img/Madlavningen.jpg}" src="../static/img/Madlavningen.jpg">
 <div class = HvadKanDuGøreDiv>
     I køkkenet: Tilbered kun den mængde mad, du/I kan spise.
 </div>
-<img class = HvadKanDuGøreImg src="../static/img/Opbevaring.jpg">
+<img class = HvadKanDuGøreImg th:src="@{img/Opbevaring.jpg}" src="../static/img/Opbevaring.jpg">
 <div class = HvadKanDuGøreDiv>
     Efter et måltid: Hvis du alligevel lavede for meget mad, skal maden i fryseren til en anden dag eller i køleskabet og spises dagen efter.
 </div>

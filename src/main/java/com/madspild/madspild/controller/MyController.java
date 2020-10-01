@@ -16,7 +16,6 @@ public class MyController {
     }
 
     @GetMapping("/mt")
-    @ResponseBody
     public String madSpildTid() {
 
         return "madspildITal";
@@ -29,7 +28,6 @@ public class MyController {
     }
 
     @GetMapping("/kontakt")
-    @ResponseBody
     public String Kontakt() {
 
         return "kontakt";

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
   <head>
     <meta charset="UTF-8" />
     <title>Madspild i tal</title>
     <link href="css/style.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
-    <img class="banner" src="../static/img/unknown.png" />
+  <img class = "banner" th:src="@{img/unknown.png}" src="../static/img/unknown.png">
     <div class="collumn">
       <a href="index.html" class="row">Hvad er madspild?</a>
       <a href="madspildITal.html" class="row">Hvad kan du gøre?</a>

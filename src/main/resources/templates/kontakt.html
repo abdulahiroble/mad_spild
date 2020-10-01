@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="site-content">
-      <img class="banner" src="../static/img/unknown.png" />
+      <img class = "banner" th:src="@{img/unknown.png}" src="../static/img/unknown.png">
       <div class="collumn">
         <a href="index.html" class="row">Hvad er madspild?</a>
         <a href="madspildITal.html" class="row">Hvad kan du gøre?</a>
