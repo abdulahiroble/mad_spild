@@ -64,6 +64,10 @@ form {
     padding: 20px;
 }
 
+.background {
+    background: #4caf50;
+}
+
 input[type="text"] {
     width: 100%;
     padding: 12px 20px;
@@ -139,4 +143,6 @@ input[type="submit"] {
     text-align: center;
     padding-left: 250px;
     padding-right: 250px;
+    background: #4caf50;
+    height: 200px;
 }
