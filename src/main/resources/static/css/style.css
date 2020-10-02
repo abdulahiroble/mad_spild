@@ -5,6 +5,10 @@ body {
     flex-direction: column;
 }
 
+a{
+    cursor:pointer;
+}
+
 .site-content {
     flex: 1;
 }
@@ -58,7 +62,6 @@ footer {
 form {
     border-radius: 5px;
     padding: 20px;
-    padding: 30px;
 }
 
 input[type="text"] {
@@ -81,7 +84,7 @@ input[type="email"] {
     box-sizing: border-box;
 }
 
-input[type="phone"] {
+input[type="tel"] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
