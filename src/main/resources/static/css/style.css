@@ -68,6 +68,10 @@ form {
     background: #4caf50;
 }
 
+.background {
+    background: #4caf50;
+}
+
 input[type="text"] {
     width: 100%;
     padding: 12px 20px;
