@@ -31,5 +31,11 @@ public class MyController {
         return "kontakt";
     }
 
+    @GetMapping("/henvendelse")
+    public String Henvendelse() {
+
+        return "takforhenvendelse";
+    }
+
 
 }
