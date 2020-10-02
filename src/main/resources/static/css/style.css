@@ -3,14 +3,16 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    margin: 0;
 }
 
 a{
     cursor:pointer;
+    text-decoration-line: none;
+    color:#000;
 }
-
-.site-content {
-    flex: 1;
+a:hover{
+    color:#666;
 }
 
 .header {
@@ -27,22 +29,28 @@ a{
     padding: 10px;
     margin: 5px;
 }
-
+.content{
+    flex:1;
+}
 footer {
     text-align: center;
-    padding: 3px;
     background-color: darksalmon;
     left: 0;
     bottom: 0;
     width: 100%;
+    flex-shrink:0;
+    margin: 0;
 }
 .counter {
     text-align: center;
 }
 .fakta {
     text-align: center;
-    padding-left: 250px;
-    padding-right: 250px;
+    width: 50%;
+    margin: auto;
+}
+.fakta p{
+    text-align: left;
 }
 
 .faktaer {

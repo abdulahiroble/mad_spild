@@ -1,11 +1,15 @@
 package com.madspild.madspild.controller;
+import com.madspild.madspild.services.MadspildCounterService;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class MyController {
+
+    MadspildCounterService madspildService = new MadspildCounterService();
 
     @GetMapping("/")
     public String index() {
@@ -14,7 +18,8 @@ public class MyController {
     }
 
     @GetMapping("/mt")
-    public String madSpildTid() {
+    public String madSpildTid(Model viewModel) {
+        viewModel.addAttribute("foodWaste", madspildService.calcFoodWaste());
         return "madspildITal";
     }
 

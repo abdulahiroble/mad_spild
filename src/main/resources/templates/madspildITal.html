@@ -9,6 +9,8 @@
 <a href="/">
   <img class = "banner" th:src="@{img/unknown.png}" src="../static/img/unknown.png" alt="banner">
 </a>
+
+<div class="content">
 <div class="collumn">
   <a href="http://localhost:8080/" class="row">Hvad er madspild?</a>
   <a href="http://localhost:8080/mt" class="row">Madspild i tal</a>
@@ -54,6 +56,14 @@
     </p>
   </div>
 </div>
+<div>
+  <div>
+    <p th:text="${foodWaste}"></p>
+  </div>
+
+</div>
+</div>
+
 <footer>
   <p>Author: Thomas West, Abdulahi Roble, Robert Braimi Pedersen</p>
   <p>
