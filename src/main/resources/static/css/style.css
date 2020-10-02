@@ -131,3 +131,9 @@ input[type="submit"] {
     padding-top: 10px;
     padding-bottom: 5px;
 }
+
+.henvendelse{
+    text-align: center;
+    padding-left: 250px;
+    padding-right: 250px;
+}
