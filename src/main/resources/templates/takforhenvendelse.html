@@ -1,37 +1,44 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link th:href="@{css/style.css}" rel="stylesheet" />
     <title>Kontakt os</title>
-</head>
-<body>
-<div class="site-content">
-    <a href="/">
-        <img class = "banner" th:src="@{img/unknown.png}" src="../static/img/unknown.png" alt="banner">
-    </a>
-    <div class="collumn">
+  </head>
+  <body>
+    <div class="content">
+      <a href="/">
+        <img
+          class="banner"
+          th:src="@{img/unknown.png}"
+          src="../static/img/unknown.png"
+          alt="banner"
+        />
+      </a>
+      <div class="collumn">
         <a href="http://localhost:8080/" class="row">Hvad er madspild?</a>
         <a href="http://localhost:8080/mt" class="row">Madspild i tal</a>
         <a href="http://localhost:8080/hkdg" class="row">Hvad kan du gøre?</a>
         <a href="http://localhost:8080/kontakt" class="row">Kontakt os</a>
-    </div>
+      </div>
 
-    <h1 class="header">Kontakt</h1>
+      <h1 class="header">Kontakt</h1>
 
-    <div class ="henvendelse">
+      <div class="henvendelse">
         <p>Tak for din henvendelse, vi vender tilbage hurtigst muligt.</p>
+      </div>
     </div>
-</div>
 
-<footer>
-    <p>
+    <footer>
+      <p>
         &copy; 2020 Author: Thomas West, Abdulahi Roble, Robert Braimi Pedersen
-    </p>
-    <p>
-        <a href="mailto: kontakt@madspild.dk">Mail to: kontakt@madspildErGODT.dk</a>
-    </p>
-</footer>
-</body>
+      </p>
+      <p>
+        <a href="mailto: kontakt@madspild.dk"
+          >Mail to: kontakt@madspildErGODT.dk</a
+        >
+      </p>
+    </footer>
+  </body>
 </html>

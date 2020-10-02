@@ -6,21 +6,13 @@ body {
     margin: 0;
 }
 
-div{
-    flex: 1 1 auto;
-}
-
 a{
     cursor:pointer;
-    text-decoration: none;
-    text-decoration-color: black;
+    text-decoration-line: none;
+    color:#000;
 }
 a:hover{
-    text-decoration-color: burlywood;
-}
-
-.site-content {
-    flex: 1;
+    color:#666;
 }
 
 .header {
@@ -37,7 +29,9 @@ a:hover{
     padding: 10px;
     margin: 5px;
 }
-
+.content{
+    flex:1;
+}
 footer {
     text-align: center;
     background-color: darksalmon;
@@ -53,8 +47,7 @@ footer {
 .fakta {
     text-align: center;
     width: 50%;
-    margin: -200px auto 0;
-    height: 300px;
+    margin: auto;
 }
 .fakta p{
     text-align: left;
