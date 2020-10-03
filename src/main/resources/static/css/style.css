@@ -13,7 +13,7 @@ a{
     color:#000;
 }
 a:hover{
-    color:#666;
+    color: #cccccc;
 }
 
 .header {
@@ -24,6 +24,7 @@ a:hover{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 10px;
 }
 
 .row {
@@ -201,6 +202,22 @@ input[type="submit"] {
 }
 .HKDGTEKST {
     font-size: 20px;
+}
+.borderbp1 {
+    width: 48%;
+    background-color: dimgrey;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+.borderbp2 {
+    width: 48%;
+    background-color: dimgrey;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 20px;
 
 }
 
