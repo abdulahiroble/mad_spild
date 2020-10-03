@@ -6,6 +6,7 @@
     <link th:href="@{css/style.css}" rel="stylesheet" />
   </head>
   <body>
+  <div class="background-site">
     <a href="/">
       <img
         class="banner"
@@ -20,6 +21,12 @@
         <a href="http://localhost:8080/mt" class="row">Madspild i tal</a>
         <a href="http://localhost:8080/hkdg" class="row">Hvad kan du gøre?</a>
         <a href="http://localhost:8080/kontakt" class="row">Kontakt os</a>
+      </div>
+
+      <div class="counterborder">
+        <div class="countertext">
+          <p th:text="${foodWaste}"></p>
+        </div>
       </div>
 
       <div class="fakta">
@@ -39,16 +46,16 @@
         </p>
       </div>
     </div>
-    <footer>
-      <p>
-        Author: Thomas West, Abdulahi Roble, Robert Braimi Pedersen, Peter Lyck
-        Shmidt
-      </p>
-      <p>
-        <a href="mailto: kontakt@madspild.dk"
-          >Mail to: kontakt@madspildErGODT.dk</a
-        >
-      </p>
-    </footer>
+  </div>
+  <footer>
+    <p>
+      &copy; 2020 Author: Thomas West, Abdulahi Roble, Robert Braimi Pedersen, Peter Schmidt
+    </p>
+    <p>
+      <a href="mailto: kontakt@madspild.dk"
+      >Mail to: kontakt@madspildErGODT.dk</a
+      >
+    </p>
+  </footer>
   </body>
 </html>
