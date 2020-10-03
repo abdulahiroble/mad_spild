@@ -12,14 +12,14 @@ public class MyController {
     MadspildCounterService madspildService = new MadspildCounterService();
 
     @GetMapping("/")
-    public String index() {
+    public String index(Model viewModel) {
+        viewModel.addAttribute("foodWaste", madspildService.calcFoodWaste());
         return "index";
 
     }
 
     @GetMapping("/mt")
-    public String madSpildTid(Model viewModel) {
-        viewModel.addAttribute("foodWaste", madspildService.calcFoodWaste());
+    public String madSpildTid() {
         return "madspildITal";
     }
 

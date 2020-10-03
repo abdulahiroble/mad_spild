@@ -1,9 +1,10 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Calibri, Helvetica, sans-serif;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
     margin: 0;
+    background: lightgray;
 }
 
 a{
@@ -28,26 +29,49 @@ a:hover{
 .row {
     padding: 10px;
     margin: 5px;
+    font-size: 20px;
+    background: dimgrey;
+    color: black;
+    border: none;
+    border-radius: 4px;
+
 }
 .content{
     flex:1;
 }
 footer {
     text-align: center;
-    background-color: darksalmon;
+    background-color: dimgrey;
     left: 0;
     bottom: 0;
     width: 100%;
     flex-shrink:0;
     margin: 0;
 }
-.counter {
+.countertext {
     text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #cccccc;
 }
+
+.counterborder {
+    width: 48%;
+    background-color: darkgreen;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: none;
+    margin-left: 480px;
+    margin-top: 30px;
+
+}
+
 .fakta {
     text-align: center;
     width: 50%;
     margin: auto;
+    line-height: 30px;
 }
 .fakta p{
     text-align: left;
@@ -58,6 +82,7 @@ footer {
     flex-direction: row;
     padding: 40px;
     margin: 20px;
+    line-height: 30px;
 }
 
 .banner {
@@ -65,19 +90,25 @@ footer {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    border: none;
+    border-radius: 4px;
 }
 
 form {
     border-radius: 5px;
     padding: 20px;
+    width: 800px;
+
+
+
 }
 
 .background {
-    background: #4caf50;
-}
-
-.background {
-    background: #4caf50;
+    background: darkgreen;
+    border-radius: 5px;
+    width: 850px;
+    margin-left: 525px;
+    border: none;
 }
 
 input[type="text"] {
@@ -100,7 +131,7 @@ input[type="email"] {
     box-sizing: border-box;
 }
 
-input[type="tel"] {
+input[type="phone"] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -121,10 +152,18 @@ input[type="submit"] {
     cursor: pointer;
 }
 
+.formtext {
+    color: #cccccc;
+    font-size: 20px;
+
+}
+
 .HvadKanDuGøreImg {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: none;
+    border-radius: 4px;
 
 }
 .HvadKanDuGøreDiv{
@@ -134,7 +173,6 @@ input[type="submit"] {
 }
 
 .bulletpoints {
-    text-align: center;
     list-style: inside;
     width: 800px;
     margin-left: auto;
@@ -149,12 +187,20 @@ input[type="submit"] {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 5px;
+
 }
 
 .henvendelse{
     text-align: center;
-    padding-left: 250px;
-    padding-right: 250px;
-    background: #4caf50;
+    padding-left: 100px;
     height: 200px;
+    color: #cccccc;
+    font-size: 25px;
+    font-weight: bold;
+    width: 650px;
 }
+.HKDGTEKST {
+    font-size: 20px;
+
+}
+
